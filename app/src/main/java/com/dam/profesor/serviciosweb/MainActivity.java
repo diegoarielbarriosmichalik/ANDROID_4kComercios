@@ -86,8 +86,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.consultar:
                 hiloconexion = new ObtenerWebService();
-                String cadenallamada = GET_BY_ID + "?dato=" + idendificador.getText().toString();
+                String cadenallamada = GET_BY_ID + "?nombre=" + nombre.getText().toString()+"&pass="+direccion.getText().toString();
                 hiloconexion.execute(cadenallamada,"2");
+                System.err.println(cadenallamada);
                 break;
             default:
                 break;
