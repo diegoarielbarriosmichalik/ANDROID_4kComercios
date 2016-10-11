@@ -1,1 +1,0 @@
-# ANDROID_4kComercios

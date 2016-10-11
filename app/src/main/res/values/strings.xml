@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">4k Comercios</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Error</string>
+    <string name="error_invalid_password">Error</string>
+    <string name="error_incorrect_password">Error</string>
+    <string name="error_field_required">Complete los campos</string>
+    <string name="permission_rationale">""
+    </string>
+</resources>
