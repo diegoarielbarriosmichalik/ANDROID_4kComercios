@@ -1,8 +1,10 @@
 package com.dam.profesor.serviciosweb;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -64,6 +66,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         direccion = (EditText)findViewById(R.id.edireccion);
         resultado = (TextView)findViewById(R.id.resultado);
         consultarporid.setOnClickListener(this);
+
+
     }
 
     @Override
@@ -93,6 +97,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 break;
         }
+    }
+
+    public void Lanzar_Activity_Principal() {
+        Intent intent = new Intent(this, ActivityPrincipal.class);
+        startActivity(intent);
     }
 
     public class ObtenerWebService extends AsyncTask<String,Void,String>{
@@ -133,8 +142,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                         if(ok == true){
                             System.err.println("Encontrado "+ok);
+                            Lanzar_Activity_Principal();
                         }else{
                             System.err.println("Encontrado "+ok);
+
                         }
                         ok = false;
 
