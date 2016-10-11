@@ -1,0 +1,32 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 248 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 51827 0 0
+ciMethod java/lang/String <init> ([CII)V 1961 1 5374 0 -1
+ciMethod java/lang/String length ()I 3073 1 8467 0 -1
+ciMethod java/lang/String charAt (I)C 4097 1 13664 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 2049 3393 5411 0 416
+ciMethod java/lang/String startsWith (Ljava/lang/String;)Z 2177 1 7443 0 320
+ciMethod java/lang/String indexOf (II)I 1041 38401 893 0 -1
+ciMethod java/lang/String substring (I)Ljava/lang/String; 2761 1 1086 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2073 1 2570 0 -1
+ciMethod java/lang/String intern ()Ljava/lang/String; 4097 1 512 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 881 1 2020 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1457 1 4536 0 -1
+ciMethod java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder; 2337 1 3427 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 705 1 1627 0 0
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1289 1 3441 0 0
+ciMethod java/lang/StringBuilder append (C)Ljava/lang/StringBuilder; 2273 1 1864 0 0
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 761 1 1637 0 0
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2057 1 8326 0 -1
+ciMethod java/lang/Math max (II)I 217 1 1561 0 -1
+ciMethod java/util/Arrays copyOf ([JI)[J 9 1 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 51830 orig 264 8 30 106 106 0 0 0 0 128 4 137 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 67 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/BitSet wordIndex (I)I 2049 1 21161 0 0
+ciMethod java/util/BitSet checkInvariants ()V 2049 1 6177 0 32
+ciMethod java/util/BitSet ensureCapacity (I)V 73 1 1536 0 0
+ciMethod java/util/BitSet expandTo (I)V 4097 1 5577 0 0
+ciMethod java/util/BitSet set (I)V 1617 1 5399 0 224
+ciMethodData java/lang/String startsWith (Ljava/lang/String;I)Z 2 14108 orig 264 8 30 106 106 0 0 0 0 248 77 137 20 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 1 0 0 25 161 0 0 161 171 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 128 0 0 0 255 255 255 255 7 0 25 0 0 0 0 0 data 16 0x190007 0x0 0x40 0x1423 0x250007 0x1269 0x20 0x1ba 0x2f0007 0x52f 0x40 0x3574 0x410007 0x283a 0xffffffffffffffe0 0xd3a oops 0
+ciMethodData java/lang/String startsWith (Ljava/lang/String;)Z 2 7443 orig 264 8 30 106 106 0 0 0 0 144 78 137 20 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 1 0 0 25 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 6 0x30005 0x0 0x2a69de0 0x1c03 0x0 0x0 oops 1
